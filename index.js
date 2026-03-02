@@ -6,8 +6,8 @@ const app = express();
 app.use(express.json());
 
 const supabase = createClient(
-  "SUPABASE_URL",
-  "SUPABASE_ANON_KEY"
+  "https://kligdvncchxpzkzejuox.supabase.co",
+  "sb_publishable_NdtmzxvKKrudHucjRY_l8g_SVz_QReq"
 );
 
 app.post("/webhook", async (req, res) => {
